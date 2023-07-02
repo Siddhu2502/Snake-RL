@@ -1,0 +1,26 @@
+[INFO] Current PyTorch version: 2.0.0+cu117PyTorch version: 2.0.0+cu117
+GPU name: NVIDIA_GeForce_GTX_1650_TiGPU score lower than (8, 0), PyTorch 2.x speedup features will be limited (PyTorch 2.x speedups happen most on newer GPUs).
+GPU information:
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 525.116.04   Driver Version: 531.41       CUDA Version: 12.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  On   | 00000000:01:00.0 Off |                  N/A |
+| N/A   45C    P8     2W /  N/A |      9MiB /  4096MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A       129      G   /Xwayland                       N/A      |
++-----------------------------------------------------------------------------+
+TorchVision version: 0.15.1+cu117
+NumPy version: 1.23.3
+Matplotlib version: 3.5.1
+Using device: cuda
